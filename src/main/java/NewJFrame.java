@@ -67,6 +67,9 @@ public class NewJFrame extends javax.swing.JFrame {
         jTextField16 = new javax.swing.JTextField();
         jComboBox1 = new javax.swing.JComboBox<>();
         jLabel18 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
 
         jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL1-PC15\\Downloads\\661f9690fb92880e032db2c269c0af53.jpg")); // NOI18N
         jLabel17.setText("jLabel17");
@@ -217,8 +220,18 @@ public class NewJFrame extends javax.swing.JFrame {
         getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 440, 170, -1));
 
         jLabel18.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL1-PC15\\Downloads\\pngtree-brown-simple-border-background-picture-image_906925.jpg")); // NOI18N
-        jLabel18.setText("jLabel18");
-        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, 0, -1, -1));
+        jLabel18.setText("re");
+        jLabel18.setToolTipText("");
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, -340, 1410, -1));
+
+        jButton2.setText("jButton2");
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 610, -1, -1));
+
+        jButton3.setText("jButton3");
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 590, -1, -1));
+
+        jButton4.setText("jButton4");
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 610, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -280,6 +293,9 @@ public class NewJFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JCheckBox jCheckBox3;
